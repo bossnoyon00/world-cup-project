@@ -19,11 +19,6 @@ body {
     border-radius: 10px;
 }
 
-.top-page button:hover {
-    background-color: blueviolet;
-    border: yellowgreen;
-}
-
 .top-page img {
     height: 90%;
 }
@@ -67,7 +62,7 @@ main {
 
 }
 
-
+/* list and grid */
 
 .list {
     display: grid;
@@ -81,8 +76,6 @@ main {
 
 }
 
-/* grid
- */
 .grid-two {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -94,10 +87,9 @@ main {
 
 .grid-two p {
     color: black;
-
 }
 
-/* footer option */
+/* footer */
 .footer {
     background-color: #161616;
 }
@@ -120,14 +112,9 @@ footer div {
     background-color: #161616;
 }
 
-footer p {
-    color: white;
-    text-align: center;
-    margin-left: 25px;
-}
-
-.fa-solid {
-    color: #161616;
+.fa-brands {
+    align-content: center;
+    justify-content: space-evenly;
 }
 
 /* view */
@@ -137,7 +124,6 @@ footer p {
     }
 }
 
-/* view */
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .grid-two {
         grid-template-columns: repeat(2, 1fr);
